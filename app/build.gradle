@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+	signingConfigs {
+		config {
+			keyAlias 'key0'
+			keyPassword 'NsKt2ksdar'
+			storeFile file('/Users/user/Documents/IntelliJ IDEA/Projects/KiraDol/Keys/名称未設定')
+			storePassword 'NsKt2ksdar'
+		}
+	}
+	compileSdkVersion 28
+	defaultConfig {
+		applicationId "ksato.kiradol"
+		minSdkVersion 19
+		targetSdkVersion 28
+		versionCode 1
+		versionName "1.0"
+		testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+		signingConfig signingConfigs.config
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+		}
+	}
+	productFlavors {
+	}
+}
+
+dependencies {
+	implementation fileTree(include: ['*.jar'], dir: 'libs')
+	implementation 'com.android.support:appcompat-v7:28.+'
+	implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+	testImplementation 'junit:junit:4.12'
+	androidTestImplementation 'com.android.support.test:runner:1.0.1'
+	androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+repositories {
+	mavenCentral()
+}

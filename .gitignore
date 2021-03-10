@@ -83,3 +83,19 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# macOS
+.DS_Store
+._.DS_Store
+
+# いらないの
+gradle/
+gradlew
+gradlew.bat
+Example*.java
+
+# 再配布可能か怪しいもの
+## 駅のアイコン（ゴール用）
+station.png
+## 画面タッチ音
+touch3.wav
