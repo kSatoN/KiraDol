@@ -18,6 +18,8 @@ The reason why I decided to publish the source code was simply that I had lost m
 
 ## How to Play
 
-It is not available in the store, so you can build it yourself.
+It is not available in the store, ~~so you can build it yourself.~~ There are some image and audio materials that cannot be redistributed, so please refer to [.gitignore](./.gitignore) to collect such materials before building.
 
-When you start the app, you will see a button “Listen to Rule”, and you can listen to the rule explanation from there. If you want to read to the explanation right now without building the app, you can find the text in [strings.xml](app/src/main/res/values-en/strings.xml) (Not completely translated yet).
+When you start the app, you will see a button “Listen to Rule”, and you can listen to the rule explanation from there.
+
+If you want to read to the explanation right now without building the app, you can find the text in [strings.xml](app/src/main/res/values-en/strings.xml) (Not completely translated yet).

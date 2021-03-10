@@ -87,6 +87,7 @@ lint/tmp/
 # macOS
 .DS_Store
 ._.DS_Store
+._*
 
 # いらないの
 gradle/
@@ -94,8 +95,21 @@ gradlew
 gradlew.bat
 Example*.java
 
-# 再配布可能か怪しいもの
+# 再配布可能か怪しいものとダメなもの
 ## 駅のアイコン（ゴール用）
 station.png
 ## 画面タッチ音
 touch3.wav
+## BGM
+bgm_game_over.m4a
+bgm_main_game.m4a
+bgm_rule.m4a
+bgm_sunrise.m4a
+bgm_yasashisawamahonoyoni.m4a
+bubu.m4a
+falling.m4a
+jump.wav
+kira_kira.m4a
+kiraidaaa.m4a
+landing.wav
+mini01_music.m4a
