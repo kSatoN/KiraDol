@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<!--android:layout_gravity="center_horizontal"-->
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraintLayoutActivityMain"
+	android:background="@color/colorBlack"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	tools:context=".controllers.ActivityMain">
+
+	<ImageView
+		android:id="@+id/imageViewBackgroundMain"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@color/colorBlack"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/main_background" />
+
+	<TextView
+		android:id="@+id/textViewKiraKiraPoint"
+		android:background="@color/colorBlackAlpha"
+		android:textColor="@color/colorKiraKira"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="24dp"
+		/>
+
+	<ImageView
+		android:id="@+id/imageViewJump"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:srcCompat="@mipmap/button_jump"
+		/>
+
+	<ImageView
+		android:id="@+id/imageViewGameOver"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/colorBlackAlpha"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:visibility="gone"
+		 />
+
+	<TextView
+		android:id="@+id/textViewGameOver"
+		android:background="@color/colorTextGameOverBack"
+		android:textColor="@color/colorGameOver"
+		android:text="@string/TextViewGameOver"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="84dp"
+		android:textSize="42dp"
+		android:visibility="gone"
+		/>
+
+	<TextView
+		android:id="@+id/textViewClear"
+		android:background="@color/colorTextGameOverBack"
+		android:textColor="@color/colorClear"
+		android:text="@string/TextViewClear"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="100dp"
+		android:textSize="42dp"
+		android:visibility="gone"
+		/>
+
+	<Button
+		android:id="@+id/buttonRetry"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="150dp"
+		android:text="@string/buttonRetry"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:textSize="18dp"
+		android:visibility="gone"
+		/>
+
+	<Button
+		android:id="@+id/buttonNext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="150dp"
+		android:text="@string/buttonNext"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:textSize="18dp"
+		android:visibility="gone"
+		/>
+
+	<TextView
+		android:id="@+id/textViewNextChara"
+		android:background="@color/colorTextNextChara"
+		android:textColor="@color/colorGameOver"
+		android:text="@string/TextViewNextChara"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:textSize="26dp"
+		android:visibility="gone"
+		/>
+
+</android.support.constraint.ConstraintLayout>

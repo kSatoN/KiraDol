@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraintLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center_horizontal"
+	android:background="@color/colorBlack"
+	tools:context=".controllers.ActivityExplanation">
+
+	<ImageView
+		android:id="@+id/imageViewBack"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@color/colorBlack"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/greenback" />
+
+	<ImageView
+		android:id="@+id/imageViewExplanationImage"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/explanation_miyu" />
+
+	<ImageView
+		android:id="@+id/imageViewStringFrame"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/explanation_frame" />
+
+	<ImageView
+		android:id="@+id/imageViewStringNext"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/explanation_next" />
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="850" />
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="80">
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="2" />
+
+			<TextView
+				android:id="@+id/textViewString"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_margin="0dp"
+				android:layout_weight="1"
+				android:fontFamily="sans-serif"
+				android:gravity="center_vertical|center_horizontal|center"
+				android:maxLines="3"
+				android:minLines="3"
+				android:text="@string/explanationMiyu0"
+				android:textAlignment="viewStart"
+				android:textColor="@color/colorWhite"
+				android:textSize="20dp"
+				android:visibility="visible"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent" />
+
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="2" />
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="80" />
+	</TableLayout>
+
+</android.support.constraint.ConstraintLayout>

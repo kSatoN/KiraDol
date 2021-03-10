@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraintLayoutActivityMini"
+	android:background="@color/colorBlack"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center_horizontal"
+	tools:context=".controllers.ActivityMini">
+
+	<ImageView
+		android:id="@+id/imageViewBackgroundMini"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@color/colorBlack"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/main_background" />
+
+	<ImageView
+		android:id="@+id/imageViewLaneMini"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@color/colorBlack"
+		android:scaleType="fitCenter"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@mipmap/greenback" />
+
+</android.support.constraint.ConstraintLayout>

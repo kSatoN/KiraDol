@@ -1,0 +1,40 @@
+<resources>
+	<string name="app_name">AG_Kira☆Idol</string>
+
+	<!-- activity_start0 -->
+	<string name="stringSpace">　</string>
+	<string name="buttonToExplanation">Listen to Rule</string>
+	<string name="buttonToStartGame">Start Game</string>
+
+	<!-- activity_explanation -->
+	<!-- 美夢ちゃん -->
+	<string name="explanationMiyu0">Hello. I am Miyu. I am a first year student in junior high, \nand live in Para Juku.\nI aim at becoming an idol.</string>
+	<string name="explanationMiyu1">Sometimes ago, my favorite vide site, “Pri Video”で\n「Omaira ga Erabu Kirakira ☆ Idol Audition」\nっていう生放送イベントが発表されたの。</string>
+	<string name="explanationMiyu2">私はそのイベントに参加することにしたの。でも，参加する\nには事前に動画を配信してキラキラ（高評価）を得る必要\nがあるみたい。</string>
+	<string name="explanationMiyu3">だから，私はこれから会場プリ袋に向かう途中で配信しよう\nと考えてるんだ。</string>
+	<!-- プリプリ動画開発者 -->
+	<string name="explanationPri0">それではプリプリ動画開発責任者の私がゲームのプレイ方法\nを説明します。</string>
+	<string name="explanationPri1">まず，この説明が終わるとメインステージが始まります。\nメインステージは全部で3ステージあります。</string>
+	<string name="explanationPri2">メインステージは端末を傾けることでキャラが移動します。\n駅を目指して進んでください。</string>
+	<string name="explanationPri3">駅に着くと，次のステージが始まります。一度駅に入ると\n前のステージには戻れませんので，ご注意ください。</string>
+	<string name="explanationPri4">ステージ中にある☆を取ると，キラキラ（高評価）が集まり\nます。たくさん集めると良いことが起こります。逆に，取ら\nなかった場合ゲームオーバーとなります。</string>
+	<string name="explanationPri5">他にも，批判厨「キライダー」にあたったり，坂や川に落ち\nたりすると，ゲームオーバーとなります。</string>
+	<string name="explanationPri6">メイン3ステージが終わると音ゲーが始まります。タイミング\nよくピコンタップタップしてください。</string>
+	<string name="explanationPri7">説明は以上です。それではゲームを始めましょう。\n（画面をタップすると，ゲームが始まります）</string>
+
+	<!-- activity_main -->
+	<string name="buttonDebugReturn">Return (Debug)</string>
+	<string name="buttonDebugNext">Next（Debug）</string>
+	<string name="TextKiraKiraPoint"> pt</string>
+	<string name="TextViewGameOver">Game Over</string>
+	<string name="TextViewClear">Stage Clear !</string>
+	<string name="TextViewNextChara"> followed you.</string>
+	<string name="TextViewNoNextChara">No new followers.</string>
+	<string name="buttonRetry">Retry Miyu</string>
+	<string name="buttonNext">Let’s Go to Next Stage Miyu</string>
+
+	<!-- activity_mini_select -->
+	<string name="buttonSelectOk">OK</string>
+	<string name="cm">Coming Soon !!!</string>
+
+</resources>

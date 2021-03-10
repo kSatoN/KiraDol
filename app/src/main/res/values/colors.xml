@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#33FFFF</color>	<!---アプリ履歴の色-->
+	<color name="colorPrimaryDark">#000000</color>	<!---アプリ上の色-->
+	<color name="colorAccent">#FF4081</color>
+
+	<color name="colorBlack">#000000</color>	<!---漆黒の闇-->
+	<color name="colorBlackAlpha">#80000000</color>	<!---半透明の闇-->
+	<color name="colorWhite">#ffffff</color>	<!---シャイ煮な白-->
+	<color name="greenBack">#00FF00</color>	<!---GB-->
+	<color name="colorKiraKira">#FFDC00</color>	<!---キラキラ☆の色-->
+	<color name="colorGameOver">#0010FF</color>	<!---4にそうなビミョーな青-->
+	<color name="colorClear">#FF30FF</color>	<!---ヒャッハーなピンク-->
+	<color name="colorTextGameOverBack">#FFFFCC</color>	<!---クリーミーなクリームのようなクリーム色-->
+	<color name="colorTextNextChara">#FFCCFF</color>	<!---崎山の桜饅頭のような ん，うん，なピンク-->
+
+</resources>
