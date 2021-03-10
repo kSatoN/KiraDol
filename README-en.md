@@ -9,7 +9,7 @@ A kusoge for Android that I made a few years ago and ended up developing.
 
 This is a 2D side-scrolling game.
 
-It was originally made as an assignment for a seminar course when I was a university student, and it was slightly modified after that. It took me about a month and a half to two months to make it. In addition, some of the code was distributed by the professor, but I think that it was OK to publish it from the viewpoint of rights and information ethics, because it was heavily modified, the part was clearly stated in the comments, and it was a low-level part that did not contain confidential information (you can find similar code by Googling).
+It was originally made as an assignment for a seminar course when I was a university student, and it was slightly modified after that. It took me about a month and a half to two months to make it.
 
 I hope this will be useful for those who want to make simple games for smartphones, but the recommended language for Android is now Kotlin, and we don’t use Java nowadays……
 
